@@ -4277,7 +4277,8 @@ PATH=$(foreach p,$(INTERNAL_USERIMAGES_BINARY_PATHS),$(p):)$$PATH MKBOOTIMG=$(MK
    $(BUILT_TARGET_FILES_PACKAGE) $(1)
 endef
 
-name := crDroidAndroid-$(TARGET_DEVICE)
+name := Floko-$(TARGET_DEVICE)
+
 ifeq ($(TARGET_BUILD_TYPE),debug)
   name := $(name)_debug
 endif
